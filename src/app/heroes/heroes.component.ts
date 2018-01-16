@@ -17,13 +17,9 @@ export class HeroesComponent implements AfterContentInit, OnInit {
   selectedHero: Hero;
   ngOnInit() {
     console.log('init');
-    // console.log(_.isNil('1'));
   }
 
   ngAfterContentInit() {
-    // console.log('after init');
-    // console.log(_.isEmpty(1));
-    // console.log(_.isEmptyArray([]));
   }
 
   onSelect(hero) {
