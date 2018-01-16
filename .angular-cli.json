@@ -22,7 +22,7 @@
         "styles.css"
       ],
       "scripts": [
-        { "input": "app/util/my-lodash.ts", "output": "my-lodash"}
+        "app/lodash.ts"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

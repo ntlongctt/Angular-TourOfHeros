@@ -1,6 +1,7 @@
 import { Component, OnInit, AfterContentInit } from '@angular/core';
 import { Hero } from '../hero';
 import { HEROES } from '../mock-heroes';
+import * as _ from 'my-lodash';
 @Component({
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
@@ -20,6 +21,7 @@ export class HeroesComponent implements AfterContentInit, OnInit {
   }
 
   ngAfterContentInit() {
+    console.log(_.isEmptyArray([1]));
   }
 
   onSelect(hero) {
